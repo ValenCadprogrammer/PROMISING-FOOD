@@ -1,0 +1,422 @@
+.nombre_clase{
+    color:darkolivegreen
+}
+#nombre_id{
+    color:firebrick;
+    justify-content: space-between;
+}
+#nombre_id{
+    color:brown;
+    justify-content: space-between;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 1;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration:wavy;
+    list-style: none;
+}
+
+body
+{
+    background-color:burlywood ;
+}
+
+header
+{
+    background-image:url(imagenes/hamburguesa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 70vh;
+    min-width: auto;
+    display: flex-direction;
+    align-content:center;
+    align-items:center;
+}
+
+.container section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+:root{
+    --title-font: 'Open Sans', sans-serif;
+    --text-font: 'Open Sans', sans-serif;
+    --primary-color: darkolivegreen;
+    --secondary-color: firebrick;
+}
+.title{
+    font-family: var(--title-font);
+    font-size: large;
+    --primary-color:var(--primary-color)
+}
+.sub-title{
+    font-family: var(--title-font);
+    font-size:medium;
+    --secondary-color:var(--secondary-color)
+}
+.p{
+    font-family: var(--text-font);
+    font-size: small;
+    text-align: justify;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position:absolute;
+    top:10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.menu .logo{
+    font-weight: 700;
+    font-size: 25px;
+    color:darkgreen;
+    position:relative;
+}
+.menu .navbar ul li{
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li a{
+    color:midnightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 20px;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color:teal;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+button {
+    color: maroon;
+    border-color:darkgreen;
+    text-decoration: underline;
+    text-shadow: aliceblue;
+}
+
+.header content{
+    display: flex;
+}
+
+.content {
+    padding: 100px 100px 0px 0px ;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.MIABRUSCHETA P {
+    margin-top: 55px;
+    color:antiquewhite;
+    text-transform:initial;
+    font-size: medium;
+    line-height: 60px;
+    display: flex;
+}
+
+.btn-1{
+    display:inline-block;
+    background-color: rgb(206, 132, 200);
+    border: 1px solid oldlace;
+    padding: 15px 25px;
+    border-radius: 25px;
+    color:black;
+    margin: 35px 10px 0px 0px;
+}
+
+.btn-1:hover{
+    background-color:blanchedalmond;
+}
+
+.SERVICESCONTAINER{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    text-transform: initial;
+    flex-direction: column;
+    padding: 90px 30px 0px 30px;
+}
+
+.servicio{
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 30px 25px 20px rgba(346, 338, 418, 0.3);
+}
+
+.servicio img{
+    margin-top: -50px;
+}
+
+.servicio p{
+    color:olivedrab;
+    font-size: 15px;
+}
+
+.products{
+    padding: 80px 0px;
+    text-align:center;
+    color:blanchedalmond;
+    justify-content: center;
+}
+
+.product{
+    display:inline-block;
+    align-items:center;
+}
+
+.product-1{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-1{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-2{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-3{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-4{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-5{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-6{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.btn-2{
+    display:inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:olive;
+    color: blanchedalmond;
+}
+
+.btn-2:hover{
+    background-color:firebrick;
+}
+footer{
+    padding: 200px 0px 30px 0px;
+    background-image: url(imagenes/forma.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-kits{
+    display:flex;
+}
+
+.info-precioskits{
+    padding: 35px;
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    margin: 0px 150px 0px 0px;
+    color:black;
+}
+
+.info-txt{
+    margin-left: 5px;
+    color:#3d740a;
+    padding: 15px;
+    text-align: center;
+    background-color: grey;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    margin: 0px 25px 0px 0px;
+}
+
+.precio{
+    font-size: 35px;
+    color:maroon !important;
+    margin-bottom: 10px;
+}
+
+.info-txt p{
+    text-align:center;
+}
+
+.btn-3{
+    display:inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:olive;
+    color: blanchedalmond;
+}
+
+.btn-3:hover{
+    background-color:firebrick;
+}
+
+    hr{
+    margin:45px 0px 0px;
+    border: 0.5px solid aliceblue;
+}
+
+@media  (max-width:991px) {
+    
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color:lightslategray;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    header{
+    height: 0vh;
+    padding: 400px 0px;
+    background-position: center center ;
+}
+
+    .header-content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 30px ;
+    }
+
+    .content{
+        padding: 0px;
+    }
+
+    .content hi{
+        margin-top: 100px;
+        font-size: 45px;
+    }
+
+    .content p{
+        margin-top: 0px;
+    }
+
+    .header-content img{
+        width: 150px;
+    }
+
+    .SERVICESCONTAINER{
+        margin-bottom: 50px;
+    }
+
+    .products{
+        padding: 0px 30px 30px 30px;
+    }
+
+    .products h2{
+        margin-bottom: 15px;
+    }
+
+    .products{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .product img{
+        display: none;
+    }
+
+    .product-1{
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .product-2{
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .footer{
+        padding: 0px 30px 30px 30px;
+    }
+    
+    .info-kits{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-precioskits{
+        margin: 0px 0px 20px 0px ;
+    }
+
+    .info-txt{
+        margin: 0px;
+    }
+
+    hr{
+        margin: 25px 0px 0px;
+    }
+}
+
+
+
+
